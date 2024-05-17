@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard - Recipe Manager</title>
+</head>
+<body>
+	<header>
+    	<h1>Recipes</h1>
+	</header>
+    <section>
+        <div id="recipeContainer">
+        </div>
+        <script>
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("recipeContainer").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "viewrecipe.php", true);
+            xhttp.send();
+        </script>
+
+    </section>
+
+<nav>
+    <ul>
+        <li><a href="dashboard.html">Go back</a></li>
+    </ul>
+</nav>
+
+    </body>
+</html>
