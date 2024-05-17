@@ -2,7 +2,7 @@
 include 'msql_config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	// Escape user inputs for security
+
 	$username = $conn->real_escape_string($_POST['username']);
 	$password = $conn->real_escape_string($_POST['password']);
 

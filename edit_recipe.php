@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Edit Recipe - Recipe Manager</title>
 </head>
-<body>
-	<h2>Edit Recipe</h2>
+	<body>
+		<h2>Edit Recipe</h2>
 	<?php
 
 	include 'msql_config.php';
@@ -44,9 +44,9 @@
         	<input type="hidden" name="recipe_id" value="<?php echo $recipe_id; ?>">
 			
         	<label for="title">Title:</label><br>
-        	<input type="text" id="title" name="title" value="<?php echo $title; ?>" required><br><br>
 			<input type="text" id="id" name="id" value="<?php echo $id; ?>" required><br><br>
-
+        	<input type="text" id="title" name="title" value="<?php echo $title; ?>" required><br><br>
+			
         	<label for="description">Description:</label><br>
         	<textarea id="description" name="description" rows="4" cols="50"><?php echo $description; ?></textarea><br><br>
        	 
@@ -64,5 +64,5 @@
     			}
 		}
 	?>
-</body>
+	</body>
 </html>
