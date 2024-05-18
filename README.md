@@ -1,3 +1,5 @@
+**Recipe Manager**
+
 # CPSC 254 Project
 Jesus Lozano-Vega
 
@@ -7,12 +9,11 @@ Brennen Meregillano
 
 Kelvin Nguyen
 
-# Recipe Manager
 
-**Project Description**
-	Imagine designing and developing a dynamic web application capable of serving specific user
-	needs or solving a particular problem. Your task is to build this web application and establish a
-	secure and efficient Linux-based server infrastructure to host it. Here's an overview of what you'll achieve:
+## Project Description
+Imagine designing and developing a dynamic web application capable of serving specific user
+needs or solving a particular problem. Your task is to build this web application and establish a
+secure and efficient Linux-based server infrastructure to host it. Here's an overview of what you'll achieve:
 
 **1. Web Application Development:**
 > - Dive into web development to create your dynamic web application using a suitable technology stack as mentioned.
