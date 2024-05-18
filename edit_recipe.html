@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<style>
         body {
             font-family: Arial, sans-serif;
@@ -10,7 +9,7 @@
             padding: 0;
         }
         header {
-            background-color: #45a049;
+            background-color: #4CAF50;
             color: white;
             text-align: center;
             padding: 1em 0;
@@ -20,11 +19,8 @@
             margin: 0;
             font-size: 2em;
         }
-        section {
-            padding: 20px;
-            margin: 20px;
-        }
-        #recipeContainer {
+       
+        form {
             background: white;
             padding: 20px;
             border-radius: 8px;
@@ -62,7 +58,9 @@
 	<title>Edit Recipe - Recipe Manager</title>
 </head>
 <body>
-	<h2>Edit Recipe</h2>
+	<header>
+    	<h1>Edit Recipe</h1>
+	</header>
 	<form action="edit_recipe.php" method="get">
     	<label for="recipeTitle">Enter the title of the recipe you want to edit:</label><br>
     	<input type="text" id="recipeTitle" name="title" required><br><br>

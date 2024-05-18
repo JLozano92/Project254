@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 1em 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header .logo {
+            color: white;
+            font-size: 1.5em;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .about-section {
+            max-width: 800px;
+            margin: auto;
+        }
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .about-text h1, .about-contacts h2 {
+            color: #333;
+        }
+        .about-text p, .about-contacts ul {
+            color: #555;
+            line-height: 1.6;
+        }
+        .about-text ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .about-contacts ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .about-contacts ul li {
+            margin: 10px 0;
+        }
+        nav {
+            background: #333;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 0px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background: #575757;
+        }
+        footer {
+            text-align: left;
+            padding: 0;
+            bottom: 0;
+            background: #4CAF50;
+            color: white;
+        }
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="index.html">Main Menu</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
     <main>
         <section class="about-section">
             <div class="about-content">
@@ -32,12 +129,7 @@
             </div>
         </section>
     </main>
-    <nav>
-        <ul>
-            <li><a href="index.html">Main Menu</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-    </nav>
+    
     <footer>
         <p>&copy; Group 6 </p>
     </footer>
