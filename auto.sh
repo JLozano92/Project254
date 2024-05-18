@@ -34,7 +34,7 @@ update_application() {
     
     systemctl restart apache2
     
-    echo "Application updated and restarted."
+    echo "Updated and restarted."
 }
 
 perform_system_maintenance() {
