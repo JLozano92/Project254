@@ -9,7 +9,7 @@ Kelvin Nguyen
 
 # Recipe Manager
 
-## Project Description
+** Project Description **
 Imagine designing and developing a dynamic web application capable of serving specific user
 needs or solving a particular problem. Your task is to build this web application and establish a
 secure and efficient Linux-based server infrastructure to host it. Here's an overview of what you'll achieve:
